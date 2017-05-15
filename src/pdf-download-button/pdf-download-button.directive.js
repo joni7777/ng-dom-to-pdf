@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('pdf-download-button')
+		.module('pdfDownloadButton')
 		.directive('pdfDownloadButton', pdfDownloadButton);
 
 	pdfDownloadButton.$inject = ['ngDomToPdf'];

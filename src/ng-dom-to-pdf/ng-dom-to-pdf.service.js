@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('ng-dom-to-pdf')
+		.module('ngDomToPdf')
 		.service('ngDomToPdf', ngDomToPdf);
 
 	ngDomToPdf.$inject = [];

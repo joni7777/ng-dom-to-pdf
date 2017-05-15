@@ -2,8 +2,8 @@
 	'use strict';
 
 	angular
-		.module('ng-dom-to-pdf', [
-			'pdf-download-button'
+		.module('ngDomToPdf', [
+			'pdfDownloadButton'
 		]);
 
 })();
