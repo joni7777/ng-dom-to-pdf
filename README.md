@@ -45,7 +45,7 @@ Convert DOM elements to PDF file and download it.
     ```html
     <!-- below block will contain the button with the attribute to perform download on click -->
  
-    <button pdf-download-button pdf-name="pdf-name.pdf" pdf-element-id = "element-to-download" class="btn">Download As PDF</button>
+    <button pdf-download-button pdf-name="pdf-name.pdf" pdf-element-id="element-to-download" class="btn">Download As PDF</button>
  
     <!-- below block will be saved as pdf on click-->
 
