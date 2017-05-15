@@ -13,20 +13,22 @@
 			scope: {
 				pdfName: '=',
 				pdfElementId: '=',
+				creatingPdfClassName: '='
 			},
 			link: function (scope, element, attrs) {
 				element.on('click', function () {
-					var pdfElementId = attrs.pdfElementId;
 					var pdfName = attrs.pdfName;
-
+					var pdfElementId = attrs.pdfElementId;
 					var elementToPdf = document.querySelector("[pdf-content=" + pdfElementId + "]");
-					element.toggle('creating-pdf');
+					var creatingPdfClassName = attrs.creatingPdfClassName || "creating-pdf";
+
+					elementToPdf.classList.toggle(creatingPdfClassName);
 					ngDomToPdf.downloadElementToPdf(elementToPdf, pdfName)
 						.then(function () {
-							element.toggle('creating-pdf');
+							elementToPdf.classList.toggle(creatingPdfClassName);
 						})
 						.catch(function () {
-							element.toggle('creating-pdf');
+							elementToPdf.classList.toggle(creatingPdfClassName);
 						})
 				})
 			}
