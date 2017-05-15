@@ -22,13 +22,13 @@
 					var elementToPdf = document.querySelector("[pdf-content=" + pdfElementId + "]");
 					var creatingPdfClassName = attrs.creatingPdfClassName || "creating-pdf";
 
-					element.classList.toggle(creatingPdfClassName);
+					element.toggleClass(creatingPdfClassName);
 					ngDomToPdf.downloadElementToPdf(elementToPdf, pdfName)
 						.then(function () {
-							element.classList.toggle(creatingPdfClassName);
+							element.toggleClass(creatingPdfClassName);
 						})
 						.catch(function () {
-							element.classList.toggle(creatingPdfClassName);
+							element.toggleClass(creatingPdfClassName);
 						})
 				})
 			}
