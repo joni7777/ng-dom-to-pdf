@@ -3,7 +3,7 @@
 
 	angular
 		.module('pdf-download-button')
-		.directive('pdf-download-button', pdfDownloadButton);
+		.directive('pdfDownloadButton', pdfDownloadButton);
 
 	pdfDownloadButton.$inject = ['ngDomToPdf'];
 
