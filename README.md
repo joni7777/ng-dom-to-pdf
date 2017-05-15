@@ -36,7 +36,7 @@ Convert DOM elements to PDF file and download it.
     ```javascript
     angular
         .module('app' , [
-            'ng-dom-to-pdf'
+            'ngDomToPdf'
         ]) ;
     ```
     
