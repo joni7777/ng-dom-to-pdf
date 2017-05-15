@@ -65,6 +65,7 @@ typings/
 
 # User-specific stuff:
 .idea/**/workspace.xml
+.idea/**/vcs.xml
 .idea/**/tasks.xml
 .idea/dictionaries
 

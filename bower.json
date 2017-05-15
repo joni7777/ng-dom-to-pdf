@@ -1,0 +1,20 @@
+{
+  "name": "ng-dom-to-pdf",
+  "homepage": "https://github.com/joni7777/ng-dom-to-pdf",
+  "authors": [
+    "Jonathan Erel <joni7777@gmail.com>"
+  ],
+  "description": "Convert DOM elements to PDF file and download it.",
+  "main": "./dist/ng-dom-to-pdf.min.js",
+  "keywords": [
+    "angular",
+    "dom",
+    "pdf"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "pdfmake": "^0.1.28",
+    "dom-to-image": "https://github.com/joni7777/dom-to-image.git#2.5.2-alpha.1"
+  }
+}
