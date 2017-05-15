@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "angular": "^1.4.8",
-    "pdfmake": "^0.1.28",
-    "dom-to-image": "https://github.com/joni7777/dom-to-image.git#2.5.2-alpha.1"
+    "dom-to-image": "https://github.com/joni7777/dom-to-image.git#2.5.2-alpha.1",
+    "es6-promise": "^4.1.0",
+    "pdfmake": "^0.1.28"
   }
 }

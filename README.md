@@ -17,6 +17,7 @@ Convert DOM elements to PDF file and download it.
 
     Using bower:
     ```html
+    <script src="../bower_components/es6-promise/es6-promise.min.js"></script>
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../bower_components/dom-to-image/dist/dom-to-image.min.js"></script>
     <script src="../bower_components/pdfmake/build/pdfmake.min.js"></script>
@@ -25,6 +26,7 @@ Convert DOM elements to PDF file and download it.
     
     Using npm:
     ```html
+    <script src="../node_modules/es6-promise/dist/es6-promise.min.js"></script>
     <script src="../node_modules/angular/angular.js"></script>
     <script src="../node_modules/dom-to-image/dist/dom-to-image.min.js"></script>
     <script src="../node_modules/pdfmake/build/pdfmake.min.js"></script>
