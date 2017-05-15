@@ -21,9 +21,13 @@
 
 					var elementToPdf = document.querySelector("[pdf-content=" + pdfElementId + "]");
 					element.toggle('creating-pdf');
-					ngDomToPdf.downloadElementToPdf(elementToPdf, pdfName).then(function () {
-						element.toggle('creating-pdf');
-					})
+					ngDomToPdf.downloadElementToPdf(elementToPdf, pdfName)
+						.then(function () {
+							element.toggle('creating-pdf');
+						})
+						.catch(function () {
+							element.toggle('creating-pdf');
+						})
 				})
 			}
 		};
