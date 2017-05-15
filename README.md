@@ -15,10 +15,19 @@ Convert DOM elements to PDF file and download it.
 
 2. Include the package and the required dependencies in the index html:
 
+    Using bower:
     ```html
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../bower_components/dom-to-image/dist/dom-to-image.min.js"></script>
     <script src="../bower_components/pdfmake/build/pdfmake.min.js"></script>
+    <script src="../dist/ng-dom-to-pdf.min.js"></script>
+    ```
+    
+    Using npm:
+    ```html
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/dom-to-image/dist/dom-to-image.min.js"></script>
+    <script src="../node_modules/pdfmake/build/pdfmake.min.js"></script>
     <script src="../dist/ng-dom-to-pdf.min.js"></script>
     ```
 
