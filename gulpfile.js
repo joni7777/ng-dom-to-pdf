@@ -13,8 +13,8 @@ gulp.task('minify', ['del-dist'], function () {
 	return gulp.src('./src/**/*.js')
 		.pipe(angularFileSort())
 		.pipe(sourcemaps.init())
-		.pipe(uglify())
 		.pipe(concat('ng-dom-to-pdf.min.js'))
+		.pipe(uglify())
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('./dist'));
 });
