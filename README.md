@@ -1,4 +1,9 @@
 # ng-dom-to-pdf
+
+[![Version npm](https://img.shields.io/npm/v/ng-dom-to-pdf.svg?style=flat-square)](https://www.npmjs.com/package/ng-dom-to-pdf)
+
+[![NPM](https://nodei.co/npm/ng-dom-to-pdf.png?downloads=true&downloadRank=true)](https://nodei.co/npm/ng-dom-to-pdf/)
+
 Convert DOM elements to PDF file and download it.
 
 # Usage
