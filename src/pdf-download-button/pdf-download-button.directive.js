@@ -17,7 +17,7 @@
 			},
 			link: function (scope, element, attrs) {
 				element.on('click', function () {
-					var pdfName = attrs.pdfName;
+					var pdfName = scope.pdfName;
 					var pdfElementId = attrs.pdfElementId;
 					var elementToPdf = document.querySelector("[pdf-content=" + pdfElementId + "]");
 					var creatingPdfClassName = attrs.creatingPdfClassName || "creating-pdf";
