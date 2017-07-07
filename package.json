@@ -1,6 +1,6 @@
 {
   "name": "ng-dom-to-pdf",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Convert DOM elements to PDF file and download it.",
   "main": "./dist/ng-dom-to-pdf.min.js",
   "scripts": {
